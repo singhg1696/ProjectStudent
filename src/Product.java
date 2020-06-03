@@ -47,17 +47,17 @@ public class Product {
     public double getPrice()
     {
         if (cost>=100){
-            cost = cost*0.3;
+            cost = cost+0.3;
         return cost;
         }
         if(cost <100){
            if(cost>=50)
            {
-               cost = cost*0.35;
+               cost = cost+0.35;
                return cost;
            }
            else
-               return cost*0.45;
+               return cost+0.45;
         }
         return cost;
     }
