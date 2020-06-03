@@ -70,5 +70,11 @@ public class Product {
             return false;
     }
 
+    /*
+    * checkdiscount
+    *
+    *
+    * */
+
 
 }
